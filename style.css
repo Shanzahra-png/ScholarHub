@@ -1,0 +1,206 @@
+/* .navbarA{
+    height: 90px;
+    background-color: black;
+    padding-left: 800px; 
+    word-spacing: 10px;
+    text-align: center;
+} */
+.logo{
+  display: flex;
+  float: right;
+} 
+.logo h2{
+  color: white;
+}
+/* .navbarA a{
+  float: left;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+.navbarA a:hover {
+background-color: #ddd;
+color: burlywood;
+} */
+
+.bg-img {
+/* The image used */
+background-image: url("p2.jpg");
+
+height: 400px;
+width: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+/* Needed to position the navbar */
+position: relative;
+/* background-color: rgb(223, 72, 72);
+mix-blend-mode: multiply; */
+backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
+}
+
+/* Position the navbar container inside the image */
+
+/* The navbar */
+.topnav {
+overflow: hidden;
+background-color: black;
+}
+
+/* Navbar links */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px; 
+text-decoration: none;
+font-size: larger;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+.heading4 h1 {
+  margin-left: 300px;
+  color: black;
+  padding: 20px;
+}
+.heading4 p{
+  margin-left: 350px;
+  font-size: larger;
+  color: black;
+  padding: 10px;
+}
+.button4{
+  margin-left: 400px;
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+} 
+.cards{
+  display: flex;
+}
+.card1{
+  height: 300px;
+  width: 230px;
+  margin: 50px;
+  margin-left: 170px;
+  /* border: 1px solid;
+  border-radius: 12px; */
+}
+.card2{
+  height: 230px;
+  width: 200px;
+  margin-left: 60px;
+  margin-top: 50px;
+  border-radius: 12px;
+
+}
+.card3{
+  height: 300px;
+  width: 200px;
+  margin-left: 70px;
+  margin-top: 50px;
+  border-radius: 12px;
+}
+.head h2{
+  margin-top: 220px;
+}
+.container3 {
+display: flex;
+margin: 20px;
+
+}
+
+.boxA {
+width: 750px;
+height: 600px;
+margin-top: 2px;
+/* padding: 10px;
+margin: 10px; */
+}
+.boxB {
+width: 300px;
+height: 380px;
+margin-top: 80px;
+margin-left: 80px;
+/* border: 1px solid black; */
+/* padding: 10px;
+margin: 10px; */
+background-color: rgb(214, 67, 67);
+}
+.boxA p{
+font-size: 18px;
+margin: 10px;
+}
+.boxB p{
+font-size: 18px;
+margin: 10px;
+}
+.container6{
+  margin: 80px;
+}
+.container6 p{
+  font-size: 20px;
+}
+.container5{
+display: flex;
+background-color: black;
+height: 400px;
+justify-items: center;
+/* padding: 150px; */
+}
+.boxC{
+margin: 70px;
+}
+.boxC a{
+  
+}
+.boxD{
+margin: 70px;
+
+}
+.boxE{
+margin: 70px;
+
+}
+.boxF{
+margin: 70px;
+
+}
+.container5 h4{
+color: white;
+font-size: 20px;
+
+}
+.container5 a{
+text-decoration: none;
+color: beige;
+word-spacing: 50px;
+}
+.container5 h4:hover {
+background-color: #ddd;
+color: black;
+}
+.container7{
+  display: flex;
+}
+.container4{
+  display: flex;
+  margin: 40px;
+
+}
+.p2{
+  margin-left: 200px;
+}
+.p3{
+  margin-left: 200px;
+}
+
+
