@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+    .box{
+        border: 1px solid;
+        height: 300px;
+        width: 400px;
+        margin: 100px;
+        overflow: visible;
+    }
+    .form{
+        margin: 20px;
+    }
+</style>
+<body>
+      
+        <div class="box">
+              <h2>login</h2>
+               <div class="form">
+                <label for="email">email:</label>
+                <input type="email" id="email" ><br><br>
+                <label for="password">password</label>
+                <input type="number" id="pswd" ><br><br>
+
+                <button onclick="show()">submit</button>
+             </div>
+        
+        </div>
+        <script>
+            function show(){
+                alert("Submitted successfully")
+            }
+            function showPassword() {
+       
+           }
+           function verifypassword(){
+            var pwd =document.getElementById("pswd").value; 
+            
+            if(pw == "") {  
+               document.getElementById("message").innerHTML = "**Fill the password please!";  
+                   return false;  
+            }  
+   
+ //minimum password length validation  
+            if(pw.length < 8) {  
+              document.getElementById("message").innerHTML = "**Password length must be atleast 8 characters";  
+                      return false;  
+            }  
+  
+//maximum length of password validation  
+            if(pw.length > 15) {  
+                 document.getElementById("message").innerHTML = "**Password length must not exceed 15 characters";  
+                       return false;  
+             } else {  
+                       alert("Password is correct");  
+               }  
+
+           }
+
+        </script>
+    </div>
+</body>
+</html>
